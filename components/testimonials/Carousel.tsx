@@ -12,7 +12,7 @@ import Image from "next/image"
 
 export default function CarouselUI() {
   return (
-    <Carousel className="w-full">
+    <Carousel className="w-full p-5">
       <CarouselContent>
         {Array.from({ length: 5 }).map((_, index) => (
           <CarouselItem key={index}>
@@ -26,7 +26,7 @@ export default function CarouselUI() {
                     </div>
                 </div>
                 <div className="w-1/2">
-                     <Card style={{  boxShadow: '18px -13px 5px 10px rgba(54, 184, 100, 0.6)' }}>
+                     <Card className="shadow-md shadow-green-400">
                         <CardContent className="flex items-center space-x-5 px-6 py-2">
                             <Image src="/client_1.png" alt="Testimonial" width={170} height={244} />
                             <div className="w-2/3 space-y-4">

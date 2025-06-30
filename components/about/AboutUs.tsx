@@ -4,7 +4,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 export default function AboutUs() {
   return (
-    <div className="px-8 md:px-24 py-8 md:py-16 flex items-center gap-x-16">
+    <div className="px-8 md:px-24 py-8 md:py-16 md:mb-14 flex items-center gap-x-16">
             <div>
                 <Image src="/about_us.png" alt="Cleaning" width={478} height={421} />
             </div>

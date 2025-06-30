@@ -1,4 +1,6 @@
 import AboutUs from "@/components/about/AboutUs";
+import Blog from "@/components/blog/Blog";
+import ContactUs from "@/components/contact/ContactUs";
 import Hero from "@/components/hero/Hero";
 import Plans from "@/components/plans/Plans";
 import GetaQuote from "@/components/quote/GetaQuote";
@@ -16,6 +18,8 @@ export default function Home() {
       <AboutUs />
       <Plans />
       <Testimonials />
+      <Blog />
+      <ContactUs />
     </>
   );
 }

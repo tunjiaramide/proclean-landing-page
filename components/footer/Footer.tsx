@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Footer() {
   return (
     <footer className="bg-[#111D15] px-8 md:px-24 py-8 md:pt-18 md:pb-8 text-white">
-        <div className="grid grid-cols-1 md:grid-cols-5 text-white pb-10 gap-1">
+        <div className="grid grid-cols-1 md:grid-cols-5 text-white pb-12 gap-1">
             <div className="space-y-5 col-span-2">
               <Image src="/logo_footer.png" alt="Pro Clean" width={203} height={50} />
               <p className="text-sm leading-[160%] w-[80%] font-normal">Stay updated with our latest cleaning tips, service updates, and helpful articles on maintaining a spotless home.</p>

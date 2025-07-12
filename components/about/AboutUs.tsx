@@ -10,7 +10,7 @@ export default function AboutUs() {
             </div>
             <div className="flex flex-col space-y-5 lg:w-1/2">
                 <h2 className="text-[34px] md:text-[44px] font-bold leading-[120%]">Welcome To Our <br/> Pro-cleaning Company!</h2>
-                <p className="text-[16px] text-[#666666] font-normal">We make your space shine! Professional and reliable cleaning service company providing top-notch solutions for homes and businesses. Satisfaction guaranteed!"</p>
+                <p className="text-[16px] text-[#666666] font-normal">We make your space shine! Professional and reliable cleaning service company providing top-notch solutions for homes and businesses. Satisfaction guaranteed!</p>
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4">
                     {[
                         "Vetted professionals",

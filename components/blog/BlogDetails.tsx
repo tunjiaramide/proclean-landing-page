@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaStar, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 
 type BlogProps = {
     imgUrl: string;
@@ -21,7 +19,7 @@ export default function BlogDetails({ imgUrl, authorName, date, title, content, 
             <h2 className="font-semibold text-xl">{title}</h2>
             <p className="text-sm text-[#666666]">{content}</p>
             <button className="mt-2 py-3 w-full border-t border-t-gray-200 text-[#666666] hover:rounded-lg text-sm underline border-black hover:bg-[#36B864] hover:text-white hover:border-0">
-                    <Link href="">Read More</Link>
+                    <Link href={href}>Read More</Link>
             </button>
         </div>
     </div>

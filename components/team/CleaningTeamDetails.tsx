@@ -26,10 +26,10 @@ export default function CleaningTeamDetails({ imgurl, title, content, href}: Tea
             </div>
             <p className="text-sm text-[#666666] w-[90%]">{content}</p>
             <div className="inline-flex space-x-4">
-                <Link href=""><FaFacebookF /></Link>
-                <Link href=""><FaXTwitter /></Link>
-                <Link href=""><FaInstagram /></Link>
-                <Link href=""><FaLinkedinIn /></Link>
+                <Link href={href}><FaFacebookF /></Link>
+                <Link href={href}><FaXTwitter /></Link>
+                <Link href={href}><FaInstagram /></Link>
+                <Link href={href}><FaLinkedinIn /></Link>
             </div>
         </div>
     </div>

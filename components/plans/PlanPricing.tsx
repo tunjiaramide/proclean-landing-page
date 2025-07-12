@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { FaStar, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 
 type PlansProps = {
     title: string;
@@ -22,7 +20,7 @@ export default function PlanPricing({ title, price, content, href}: PlansProps) 
                     ))}
             </div>
             <button className=" gap-2 px-8 py-2.5 border rounded-md text-sm border-black hover:bg-[#36B864] hover:text-white">
-                    <Link href="">Book Now</Link>
+                    <Link href={href}>Book Now</Link>
             </button>
     </div>
   )

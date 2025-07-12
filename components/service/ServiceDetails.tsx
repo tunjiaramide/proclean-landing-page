@@ -11,7 +11,7 @@ type ServicesProps = {
 
 export default function ServiceDetails({ imgurl, title, content, href}: ServicesProps ) {
   return (
-    <div className="flex flex-col space-y-5">
+    <div className="flex flex-col space-y-5 mb-10">
         <Image src={imgurl} alt="office cleaning" width={370} height={262} />
         <h2 className="font-semibold text-2xl">{title}</h2>
         <p className="text-sm text-[#666666]">{content}</p>

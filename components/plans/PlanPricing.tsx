@@ -11,7 +11,7 @@ type PlansProps = {
 
 export default function PlanPricing({ title, price, content, href}: PlansProps) {
   return (
-    <div className="flex flex-col space-y-5 rounded-md p-10 bg-white shadow-md">
+    <div className="flex flex-col space-y-5 rounded-md p-10 bg-white shadow-md mb-10">
             <h2 className="text-center text-lg uppercase">{title}</h2>
             <div className="bg-[#36B864] px-5 py-3 rounded-md text-white text-center">
                 <h6 className="text-2xl"><span className="text-sm">$</span>{price}/<span className="text-sm">Monthly</span></h6>

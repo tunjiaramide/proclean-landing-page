@@ -7,9 +7,9 @@ export default function Hero() {
       <h3 className='text-[14px] md:text-[20px]'>Quality cleaning at a fair price.</h3>
       <h1 className='text-[24px] md:text-[52px] font-bold w-[90%] md:w-[60%] leading-8 md:leading-13 my-3'>Specialized, efficient, and thorough cleaning services</h1>
       <p className='hidden md:block text-base md:w-[50%] font-normal mb-6 text-[#666666]'>We provide performing cleaning tasks using the least amount of time, energy, and money.</p>
-      <div className='flex flex-col sm:flex-row sm:space-x-3 space-y-3 sm:space-y-0'>
+      <div className='flex space-x-3'>
         <button className="px-4 py-3 md:px-8 md:py-3 rounded-md bg-[#36B864] text-white text-sm"><Link href="#">Get Started Now</Link></button>
-        <button className="px-4 py-3 md:px-8 md:py-3 border rounded-md text-black text-sm"><Link href="#">View all Services</Link></button>
+        <button className="px-4 py-3 md:px-8 md:py-3 border rounded-md text-white md:text-black text-sm"><Link href="#">View all Services</Link></button>
       </div>
     </div>
   )

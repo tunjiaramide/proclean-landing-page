@@ -40,12 +40,12 @@ export default function Blog() {
   return (
         <div className="px-8 md:px-24 py-8 md:py-16">
             <div className="grid grid-cols-1 md:grid-cols-[60%_auto] gap-2 border-b-1 mb-8">
-                <div className="mb-8 w-[80%]">
-                    <h2 className="text-[40px] leading-12 font-semibold capitalize">Stay Updated with Our Tips & Service News!</h2>
+                <div className="mb-3 md:mb-8 md:w-[80%]">
+                    <h2 className="text-[30px] md:text-[40px] leading-9 md:leading-12 font-semibold capitalize">Stay Updated with Our Tips & Service News!</h2>
                 </div>
                 <div>
                     <h4 className="text-[18px] mb-3 font-medium">Our Blog</h4>
-                    <p className="text-[#666666]">Stay informed with our latest cleaning tips, service updates, expert advice on maintaining an immaculate home</p>
+                    <p className="text-[#666666] mb-3">Stay informed with our latest cleaning tips, service updates, expert advice on maintaining an immaculate home</p>
                 </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-x-6">

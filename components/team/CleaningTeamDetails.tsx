@@ -13,7 +13,7 @@ type TeamProps = {
 
 export default function CleaningTeamDetails({ imgurl, title, content, href}: TeamProps ) {
   return (
-    <div className="flex flex-col space-y-5 border border-[#83A790] rounded-md">
+    <div className="flex flex-col space-y-5 border border-[#83A790] rounded-md mb-10">
         <Image src={imgurl} alt="office cleaning" width={370} height={300} />
         <div className="px-4 space-y-5 pb-5">
             <h2 className="font-semibold text-2xl">{title}</h2>

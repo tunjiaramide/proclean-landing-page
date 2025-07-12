@@ -16,20 +16,20 @@ export default function CarouselUI() {
       <CarouselContent>
         {Array.from({ length: 5 }).map((_, index) => (
           <CarouselItem key={index}>
-            <div className="p-1 flex space-x-5">
-                <div className="w-1/2 space-y-5">
-                    <h2 className="text-[38px] leading-11 font-semibold">Feedback About Their Experience With Us</h2>
-                    <p className="text-[16px] text-[#666666] w-[80%]">Read testimonials from our satisfied clients. See how our cleaning services have made a difference in their lives and homes</p>
+            <div className="p-1 flex flex-col md:flex-row md:space-x-5">
+                <div className="md:w-1/2 space-y-5">
+                    <h2 className="text-[33px] md:text-[38px] leading-11 font-semibold">Feedback About Their Experience With Us</h2>
+                    <p className="text-[16px] text-[#666666] md:w-[80%]">Read testimonials from our satisfied clients. See how our cleaning services have made a difference in their lives and homes</p>
                     <div className="flex space-x-2">
                         <CarouselPrevious  className="static mt-3 rounded-sm text-[#36B864] font-bold" />
                         <CarouselNext className="static mt-3 rounded-sm bg-[#36B864] border-transparent text-white" />
                     </div>
                 </div>
-                <div className="w-1/2">
+                <div className="md:w-1/2">
                      <Card className="shadow-md shadow-green-400">
-                        <CardContent className="flex items-center space-x-5 px-6 py-2">
+                        <CardContent className="flex flex-col md:flex-row items-center space-x-5 px-6 py-2">
                             <Image src="/client_1.png" alt="Testimonial" width={170} height={244} />
-                            <div className="w-2/3 space-y-4">
+                            <div className="md:w-2/3 space-y-4 mt-10">
                                 <div className="flex justify-between">
                                         <div className="space-y-0.5">
                                             <h6 className="text-xl">Robert Fox</h6>

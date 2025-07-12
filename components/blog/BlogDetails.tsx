@@ -14,7 +14,7 @@ type BlogProps = {
 
 export default function BlogDetails({ imgUrl, authorName, date, title, content, href}: BlogProps) {
   return (
-    <div className="flex flex-col space-y-5 border border-[#83A790] rounded-md">
+    <div className="flex flex-col space-y-5 border border-[#83A790] rounded-md mb-10">
         <Image src={imgUrl} alt="office cleaning" width={370} height={300} />
         <div className="px-4 space-y-5 pb-5 text-center">
             <h6 className="text-[#666666] space-x-2 text-sm mt-4"><span>{authorName}</span><span>{date}</span></h6>

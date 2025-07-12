@@ -4,11 +4,11 @@ import { FaCheckCircle } from "react-icons/fa";
 
 export default function AboutUs() {
   return (
-    <div className="px-8 md:px-24 py-8 md:py-16 md:mb-14 flex flex-col md:flex-row items-center gap-x-16">
+    <div className="px-8 lg:px-24 py-8 lg:py-16 md:mb-14 flex flex-col lg:flex-row items-center gap-x-16">
             <div className="mb-10">
                 <Image src="/about_us.png" alt="Cleaning" width={478} height={421} />
             </div>
-            <div className="flex flex-col space-y-5 md:w-1/2">
+            <div className="flex flex-col space-y-5 lg:w-1/2">
                 <h2 className="text-[34px] md:text-[44px] font-bold leading-[120%]">Welcome To Our <br/> Pro-cleaning Company!</h2>
                 <p className="text-[16px] text-[#666666] font-normal">We make your space shine! Professional and reliable cleaning service company providing top-notch solutions for homes and businesses. Satisfaction guaranteed!"</p>
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4">

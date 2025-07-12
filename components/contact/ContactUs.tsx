@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 export default function ContactUs() {
   return (
-    <div className="px-8 md:px-24 py-8 md:py-16 flex flex-col md:flex-row items-center justify-center gap-x-10">
+    <div className="px-8 lg:px-24 py-8 lg:py-16 flex flex-col md:flex-row items-center justify-center gap-x-10">
         <div className='md:w-1/2 space-y-10 mb-10'>
             <h2 className="text-4xl">Find us</h2>
             <div className="flex space-x-4">

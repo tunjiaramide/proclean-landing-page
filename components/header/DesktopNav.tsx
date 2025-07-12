@@ -7,7 +7,7 @@ export default function DesktopNav() {
             <h1>
                 <Image src="/Logo.svg" alt="logo" width={204} height={50}/>
             </h1>
-            <div className="flex space-x-6 justify-between">
+            <div className="flex md:space-x-2 lg:space-x-6 justify-between">
                 <Link className="text-[#36B864] font-semibold" href="#">Home</Link>
                 <Link className="hover:text-[#36B864]" href="#">About us</Link>
                 <Link className="hover:text-[#36B864]" href="#">Services</Link>

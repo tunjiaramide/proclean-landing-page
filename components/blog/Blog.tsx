@@ -38,9 +38,9 @@ const blogs: BlogProps[] = [
 
 export default function Blog() {
   return (
-        <div className="px-8 md:px-24 py-8 md:py-16">
+        <div className="px-8 lg:px-24 py-8 lg:py-16">
             <div className="grid grid-cols-1 md:grid-cols-[60%_auto] gap-2 border-b-1 mb-8">
-                <div className="mb-3 md:mb-8 md:w-[80%]">
+                <div className="mb-3 md:mb-8 lg:w-[80%]">
                     <h2 className="text-[30px] md:text-[40px] leading-9 md:leading-12 font-semibold capitalize">Stay Updated with Our Tips & Service News!</h2>
                 </div>
                 <div>

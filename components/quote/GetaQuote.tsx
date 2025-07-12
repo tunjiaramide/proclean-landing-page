@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function GetaQuote() {
   return (
-    <div className="px-8 md:px-24 py-8 md:py-16 flex flex-col md:flex-row justify-between items-center">
+    <div className="px-8 lg:px-24 py-8 lg:py-16 flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-col space-y-3.5 md:w-1/2 mb-10">
                 <h6 className="font-normal text-[16px]">Affordable cleaning solutions</h6>
                 <h2 className="text-[34px] md:text-[44px] font-bold leading-[120%]">High-Quality and Friendly Services at Fair Prices</h2>

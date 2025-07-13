@@ -9,10 +9,10 @@ export default function DesktopNav() {
             </h1>
             <div className="flex md:space-x-2 lg:space-x-6 justify-between">
                 <Link className="text-[#36B864] font-semibold" href="#">Home</Link>
-                <Link className="hover:text-[#36B864]" href="#">About us</Link>
-                <Link className="hover:text-[#36B864]" href="#">Services</Link>
-                <Link className="hover:text-[#36B864]" href="#">Blog</Link>
-                <Link className="hover:text-[#36B864]" href="#">Contact</Link>
+                <Link className="hover:text-[#36B864]" href="#aboutus">About us</Link>
+                <Link className="hover:text-[#36B864]" href="#service">Services</Link>
+                <Link className="hover:text-[#36B864]" href="#pricing">Pricing</Link>
+                <Link className="hover:text-[#36B864]" href="#contact">Contact</Link>
             </div>
             <div>
                 <button className="px-8 py-3 border rounded-md bg-[#36B864] text-white text-sm">

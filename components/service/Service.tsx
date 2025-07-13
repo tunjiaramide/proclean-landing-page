@@ -29,7 +29,7 @@ const services: ServicesProps[] = [
 ]
 export default function Service() {
   return (
-    <div className="px-8 lg:px-24 py-8 md:py-16">
+    <div id="service" className="px-8 lg:px-24 py-8 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-[60%_auto] gap-2 border-b-1 mb-8">
             <div className="mb-3 md:mb-8 lg:w-[80%]">
                 <h2 className="text-[30px] md:text-[40px] leading-9 md:leading-12 font-semibold capitalize">We always provide the best service</h2>

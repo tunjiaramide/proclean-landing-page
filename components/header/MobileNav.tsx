@@ -31,10 +31,10 @@ export default function MobileNav() {
 
                 <div className="flex flex-col space-y-6 items-start">
                 <Link className="text-[#36B864] font-semibold text-lg" href="#">Home</Link>
-                <Link className="hover:text-[#36B864] text-lg" href="#">About us</Link>
-                <Link className="hover:text-[#36B864] text-lg" href="#">Services</Link>
-                <Link className="hover:text-[#36B864] text-lg" href="#">Blog</Link>
-                <Link className="hover:text-[#36B864] text-lg" href="#">Contact</Link>
+                <Link className="hover:text-[#36B864]" href="#aboutus">About us</Link>
+                <Link className="hover:text-[#36B864]" href="#service">Services</Link>
+                <Link className="hover:text-[#36B864]" href="#pricing">Pricing</Link>
+                <Link className="hover:text-[#36B864]" href="#contact">Contact</Link>
 
                 <button className="mt-6 px-8 py-3 border rounded-md bg-[#36B864] text-white text-sm">
                     <Link href="#">Get a Quote</Link>

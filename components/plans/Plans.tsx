@@ -42,7 +42,7 @@ const plans: PlansProps[] = [
 
 export default function Plans() {
   return (
-    <div className="pb-8">
+    <div id="pricing" className="pb-8">
         <div className='bg-[#36B864] h-[690px]'>
         </div>
         <div className='-mt-150 bg-transparent px-8 lg:px-24 relative z-10 space-y-4'>
